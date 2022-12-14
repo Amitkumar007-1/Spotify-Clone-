@@ -6,14 +6,14 @@ let gif = document.querySelector('.gif>img')
 let seekbar = document.querySelector('#footer input');
 let songitem = Array.from(document.getElementsByClassName('songitem'));
 let songs = [
-   { songName: 'Ude Dil Befikre', filepath: '/songs/song-0.mp3', coverpath: './Images/coverImages/cover-1.jfif' },
-   { songName: 'Toise Naina', filepath: '/songs/song-1.mp3', coverpath: './Images/coverImages/cover-2.jpg' },
-   { songName: 'Mast Magan', filepath: '/songs/song-2.mp3', coverpath: './Images/coverImages/cover-3.jpg' },
-   { songName: 'Channa Mereya', filepath: '/songs/song-3.mp3', coverpath: './Images/coverImages/cover-4.jfif' },
-   { songName: 'Wajah Tum Ho', filepath: '/songs/song-4.mp3', coverpath: './Images/coverImages/cover-5.jfif' },
-   { songName: 'Haye Dil', filepath: '/songs/song-5.mp3', coverpath: './Images/coverImages/cover-6.jfif' },
-   { songName: 'Jab Tak', filepath: '/songs/song-6.mp3', coverpath: './Images/coverImages/cover-7.jpg' },
-   { songName: 'Kya  ', filepath: '/songs/song-7.mp3', coverpath: './Images/coverImages/cover-8.jpg' }
+   { songName: 'Ude Dil Befikre', filepath: './songs/song-0.mp3', coverpath: './Images/coverImages/cover-1.jfif' },
+   { songName: 'Toise Naina', filepath: './songs/song-1.mp3', coverpath: './Images/coverImages/cover-2.jpg' },
+   { songName: 'Mast Magan', filepath: './songs/song-2.mp3', coverpath: './Images/coverImages/cover-3.jpg' },
+   { songName: 'Channa Mereya', filepath: './songs/song-3.mp3', coverpath: './Images/coverImages/cover-4.jfif' },
+   { songName: 'Wajah Tum Ho', filepath: './songs/song-4.mp3', coverpath: './Images/coverImages/cover-5.jfif' },
+   { songName: 'Haye Dil', filepath: './songs/song-5.mp3', coverpath: './Images/coverImages/cover-6.jfif' },
+   { songName: 'Jab Tak', filepath: './songs/song-6.mp3', coverpath: './Images/coverImages/cover-7.jpg' },
+   { songName: 'Kya  ', filepath: './songs/song-7.mp3', coverpath: './Images/coverImages/cover-8.jpg' }
 ]
 
 
