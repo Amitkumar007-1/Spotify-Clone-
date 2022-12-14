@@ -153,6 +153,7 @@ z-index: -1;
 }
 #songname{
     font-family: 'Merriweather', serif;
+    text-align:center;
 
 }
 #songcontainer h4{
@@ -210,6 +211,7 @@ z-index: -1;
     }
     #songname{
         font-size: 1em;
+        text-align:center;
     }
 }
 @media (max-width:450px){
@@ -235,8 +237,9 @@ z-index: -1;
         width: 32px;
         
     }
-    .songname{
+    #songname{
         font-size: 1em;
+        text-align:center;
     }
     .gif{
         left: 31px;
