@@ -1,0 +1,279 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+/* NAVBAR SECTION */
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    color: white;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+    
+    padding: 7px 13px;
+}
+
+#navbar {
+    position: relative;
+}
+
+#navbar>ul img {
+    height: 47px;
+    width: 48px;
+}
+
+#navbar:before {
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+#navbar span{
+    font-size: 1.1em;
+    padding:0px 9px;
+    font-family: 'Merriweather', serif;
+
+}
+#navbar li a{
+    padding-left:27px;
+    color:white;
+    text-decoration: none;
+    font-size:smaller;
+}
+#navbar a:hover{
+    color:green;
+}
+
+               /* BODY CONTAINER */
+
+#bodycontainer{
+    height: 78vh;
+    background-color: antiquewhite;
+    padding: 14px 2px;
+}   
+#songcontainer{
+    height: 444px;
+    margin: 0px 163px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-image: url(./Images/backgroundImage.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/* #songcontainer::before{
+content:"";
+background-image: url(./Imagepeople-g184314db6_1280.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+z-index: -1;
+
+}              */
+#songcontainer img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    margin-left: 4px;
+}
+.songitem{
+    width: 28vw;
+    border: 1px solid navajowhite;
+    border-radius: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gainsboro;
+    margin: 9px 13px;
+}
+.playbutton{
+    padding:1px 12px;
+    cursor:pointer;
+}
+#footer{
+    background-color:black;
+    position: sticky;
+    bottom:0px;
+
+}
+.bottombutton{
+    color:white;
+    cursor:pointer;
+}
+.footercontainer{
+    height: 71px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footercontainer>input{
+    width: 80vw;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+/* .gif>img{
+    height: 12px;
+    width: 65px;
+    position: absolute;
+    left: 122px;
+    top: 39px;
+} */
+.gif{
+    height: 12px;
+    
+    position: absolute;
+    left: 122px;
+    top: 39px; 
+    color: white;
+}
+.gif img{
+    height: 12px;
+    width: 65px;
+    margin: 3px 11px;
+    opacity:0;
+    transition: opacity;
+    transition-timing-function: ease-in;
+    transition-duration: 0.4s;
+}
+#songname{
+    font-family: 'Merriweather', serif;
+
+}
+#songcontainer h4{
+    color: white;
+    font-size: 1.1em;
+    font-family: math;
+    margin: 0px 17px;
+}
+
+@media  (max-width:850px){
+   #songcontainer{
+       margin: 0px 67px;
+    
+   }
+   .songitem{
+    width: 38vw;
+    
+}
+.gif{
+    left: 57px;
+   
+}
+}
+@media (max-width:650px){
+    #songcontainer{
+        margin: 0px 17px;
+    }
+    .songitem{
+        width: 46vw;
+        
+    }
+    .gif{
+        left: 24px;
+       
+    }
+    .gif img{
+        width: 52px;
+    }
+    .footercontainer>input{
+        width:89vw;
+    }
+
+}
+@media (max-width:550px){
+    #songcontainer{
+        margin: 0px 7px;
+    }
+    .songitem{
+        width: 52vw;
+        
+    }
+    .gif{
+        left: 12px;
+       
+    }
+    #songname{
+        font-size: 0.4em;
+    }
+}
+@media (max-width:450px){
+    
+    #navbar>ul img {
+        height: 34px;
+        width: 36px;
+    }
+    #navbar li a{
+        padding-left:8px;
+      
+        font-size:0.2em;
+    }
+    #songcontainer{
+        margin: 0px 2px;
+    }
+    .songitem{
+        width: 58vw;
+        
+    }
+    #songcontainer img{
+        height: 33px;
+        width: 32px;
+        
+    }
+    .songname{
+        font-size: 0.8em;
+    }
+    .gif{
+        left: 31px;
+        display: flex;
+    flex-direction: column;
+    top:31px;
+       
+    }
+    .gif img{
+        margin:3px 20px;
+    }
+}
+@media (min-width:300px) and (max-width:400px){
+    .songname{
+        font-size: 0.8em;
+        position: relative;
+    bottom: 68px;
+    left: 104px;
+    color: black;
+    }
+    .gif{
+        left: 16px;
+        display: flex;
+    flex-direction: column;
+    top:31px;
+    }
+    .songitem{
+        width: 76vw;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
